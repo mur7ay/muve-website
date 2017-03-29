@@ -516,6 +516,55 @@ tr.bordered {
   }
 }
 
+/*
+* Privacy Policy Page
+*/
+.privacy-policy-container {
+  margin-top: 120px;
+}
+
+.privacy-policy-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1A5276;
+}
+
+.privacy-policy-container h2 {
+  color: #1A5276;
+}
+
+.privacy-policy-container p {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .privacy-policy-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+  .privacy-policy-container {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1800px) {
+  .privacy-policy-container {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 2500px) {
+  .privacy-policy-container {
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+}
+
 .footer-links a {
   color: inherit;
   font-size: 14px;
