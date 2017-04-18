@@ -262,6 +262,54 @@ blockquote:before {
   width: 200px;
 }
 
+.contact-container {
+  text-align: center;
+  height: 400px;
+}
+
+.contact-container h1 {
+  margin-top: 200px;
+  font-size: 100px;
+}
+
+.contact-container p {
+  font-size: 20px;
+  color: #B9B9B9;
+}
+
+.contact-btn {
+  width: 200px;
+  height: 40px;
+  background-color: #1A5276;
+  border-style: none;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.privacy-container {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.privacy-container h1 {
+  margin-top: 200px;
+  text-align: center;
+  color: #1A5276;
+}
+
+.privacy-container p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.privacy-container h2 {
+  color: #1A5276;
+}
+
+footer a {
+  color: gray;
+}
+
 @media screen and (min-width: 200px) and (max-width: 320px) {
   .introduction-container h1 {
       font-size: 40px;
@@ -413,6 +461,14 @@ blockquote:before {
   #button2 {
       margin-top: 10px;
       width: 200px;
+  }
+  .privacy-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .privacy-container p {
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 }
 
@@ -568,6 +624,10 @@ blockquote:before {
     #button2 {
         width: 180px;
     }
+    .privacy-container {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
 }
 @media screen and (min-width: 701px) and (max-width: 1000px) {
     .introduction-container h1 {
@@ -625,6 +685,10 @@ blockquote:before {
     .blue-container button {
       color: #FFF;
       font-size: 18px;
+    }
+    .privacy-container {
+      margin-left: 40px;
+      margin-right: 40px;
     }
 }
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
