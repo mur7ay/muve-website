@@ -204,7 +204,8 @@ blockquote:before {
 }
 .blue-container {
     clear: both;
-    height: 200px;
+    height: 230px;
+    overflow: hidden;
     text-align: center;
     background-color: #F6F6F6;
 }
@@ -304,6 +305,27 @@ blockquote:before {
 
 .privacy-container h2 {
   color: #1A5276;
+}
+
+.cost-container {
+  height: 540px;
+  background-color: #2ECC71;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+}
+
+.cost-container img {
+  padding-top: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cost-container p {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 footer a {
@@ -470,6 +492,19 @@ footer a {
     margin-top: 20px;
     margin-bottom: 40px;
   }
+  .cost-container {
+    height: 570px;
+  }
+
+  .cost-container img {
+    padding-top: 80px;
+  }
+
+  .cost-container p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 700px) {
@@ -559,10 +594,11 @@ footer a {
         margin-bottom: 1600px;
     }
     .blue-container {
-        height: 180px;
+        height: 210px;
     }
     .blue-container h2 {
         font-size: 18px;
+        margin-top: 20px;
     }
     .blue-container button {
         font-size: 16px;
@@ -628,6 +664,19 @@ footer a {
       margin-left: 20px;
       margin-right: 20px;
     }
+    .cost-container {
+      height: 510px;
+    }
+
+    .cost-container img {
+      padding-top: 80px;
+    }
+
+    .cost-container p {
+      font-size: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
 }
 @media screen and (min-width: 701px) and (max-width: 1000px) {
     .introduction-container h1 {
@@ -689,6 +738,19 @@ footer a {
     .privacy-container {
       margin-left: 40px;
       margin-right: 40px;
+    }
+    .cost-container {
+      height: 510px;
+    }
+
+    .cost-container img {
+      padding-top: 80px;
+    }
+
+    .cost-container p {
+      font-size: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
     }
 }
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
