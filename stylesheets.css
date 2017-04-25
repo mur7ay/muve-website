@@ -328,6 +328,37 @@ blockquote:before {
   margin-right: 250px;
 }
 
+.team-container {
+  margin-top: 100px;
+  text-align: center;
+  height: 440px;
+}
+
+.team-container h3 {
+  color: #2ECC71;
+}
+
+.member-left {
+  float: left;
+  width: 50%;
+  padding-left: 140px;
+  margin-top: 60px;
+}
+
+.member-right {
+  float: right;
+  width: 50%;
+  padding-right: 140px;
+  margin-top: 60px;
+}
+
+.member-image {
+  border-radius: 50%;
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
 footer a {
   color: gray;
 }
@@ -505,6 +536,23 @@ footer a {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .team-container {
+    margin-top: 700px;
+  }
+
+  .member-left {
+    float: left;
+    width: 100%;
+  }
+
+  .member-right {
+    float: left;
+    width: 100%;
+  }
+  footer p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 700px) {
@@ -676,6 +724,26 @@ footer a {
       font-size: 20px;
       margin-left: 30px;
       margin-right: 30px;
+    }
+
+    .team-container {
+      margin-top: 70px;
+      height: 700px;
+    }
+
+    .member-left {
+      float: left;
+      width: 100%;
+      padding-left: 0;
+    }
+
+    .member-right {
+      float: left;
+      width: 100%;
+      padding-right: 0;
+    }
+    footer p {
+      font-size: 12px;
     }
 }
 @media screen and (min-width: 701px) and (max-width: 1000px) {
