@@ -42,30 +42,30 @@
         ga('send', 'pageview');
     </script>
 
-    <!-- Start of muvecs Zendesk Widget script -->
+    <!-- Start of Async Drift Code -->
     <script>
-        /*<![CDATA[*/
-        window.zEmbed || function(e, t) {
-            var n, o, d, i, s, a = [],
-                r = document.createElement("iframe");
-            window.zEmbed = function() {
-                    a.push(arguments)
-                }, window.zE = window.zE || window.zEmbed, r.src = "javascript:false", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "display: none", d = document.getElementsByTagName("script"), d = d[d.length - 1],
-                d.parentNode
-                .insertBefore(r, d), i = r.contentWindow, s = i.document;
-            try {
-                o = s
-            } catch (e) {
-                n = document.domain, r.src = 'javascript:var d=document.open();d.domain="' + n + '";void(0);', o = s
-            }
-            o.open()._l = function() {
-                var e = this.createElement("script");
-                n && (this.domain = n), e.id = "js-iframe-async", e.src = "https://assets.zendesk.com/embeddable_framework/main.js", this.t = +new Date, this.zendeskHost = "muvecs.zendesk.com", this.zEQueue = a, this.body.appendChild(e)
-            }, o.write('<body onload="document._l();">'), o.close()
+        ! function() {
+            var t;
+            if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+                t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                t.factory = function(e) {
+                    return function() {
+                        var n;
+                        return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+                    };
+                }, t.methods.forEach(function(e) {
+                    t[e] = t.factory(e);
+                }), t.load = function(t) {
+                    var e, n, o, i;
+                    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+                        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+                });
         }();
-        /*]]>*/
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('px6hbg4x3yfg');
     </script>
-    <!-- End of muvecs Zendesk Widget script -->
+    <!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -96,7 +96,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">BUSINESS</a></li>
-                    <li><a href="#">PERSONAL</a></li>
+                    <li><a href="individual.html">PERSONAL</a></li>
                     <li><a href="getstarted.html">INTEGRATIONS</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li style="border-style:solid; border-color: #2ECC71; background-color: #2ECC71;"><a href="http://www.muveapp.com" style="color: #FFF;">SHIP NOW</a></li>
@@ -133,6 +133,59 @@
             </div>
         </div>
 
+      <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2" id="feature">
+                <i class="fa fa-calendar-check-o fa-3x" aria-hidden="true"></i>
+                <h4>Flexable Scheduling</h4>
+                <p>
+                  Tired of having your day revolve around a scheduled pickup? Muve allows you to schedule that works for you.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2" id="feature">
+                <i class="fa fa-money fa-3x" aria-hidden="true"></i>
+                <h4>Upfront Pricing</h4>
+                <p>
+                  Get upfront pricing with no hidden fees before you make a request.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2" id="feature">
+                <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+                <h4>Free Packaging</h4>
+                <p>
+                  Never worry about getting packaging material and packaging your shipments ever again.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2" id="feature">
+                <i class="fa fa-map-o fa-3x" aria-hidden="true"></i>
+                <h4>Realtime Tracking</h4>
+                <p>
+                  Track your items on a realtime map from your phone or desktop.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2" id="feature">
+                <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
+                <h4>Courier Chat</h4>
+                <p>
+                  Message your courier at anytime during the delivery process if you have any questions or concerns.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2" id="feature">
+                <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
+                <h4>Same-day Delivery</h4>
+                <p>
+                  Send your items or recent online purchases delivered same-day for one low price.
+                </p>
+            </div>
+        </div>
+        </div> -->
+
+
         <div class="faq-container">
             <div class="faq-inner">
                 <h2>FAQ</h2>
@@ -152,11 +205,13 @@
                     We currently deliver within the Cincinnati area, but plan to expand rapidly to other cities.
                 </p>
 
-                <p>
-                    <strong>Still have questions? Email us: <span style="color:#2ecc71;">s</span><span style="color:#2dc471;">a</span><span style="color:#2cbd72;">l</span><span style="color:#2ab572;">e</span><span style="color:#29ae72;">s</span><span style="color:#28a673;">@</span><span style="color:#279e73;">g</span><span style="color:#259773;">e</span><span style="color:#248f74;">t</span><span style="color:#238774;">m</span><span style="color:#228074;">u</span><span style="color:#207874;">v</span><span style="color:#1f7175;">e</span><span style="color:#1e6975;">.</span><span style="color:#1d6175;">c</span><span style="color:#1b5a76;">o</span><span style="color:#1a5276;">m</span> or calling us at <a href="tel:888-506-3958"><span style="color:#2ecc71;">8</span><span style="color:#2cc171;">8</span><span style="color:#2ab672;">8</span><span style="color:#29ab72;">-</span><span style="color:#27a073;">5</span><span style="color:#259573;">0</span><span style="color:#238974;">6</span><span style="color:#217e74;">-</span><span style="color:#1f7375;">3</span><span style="color:#1e6875;">9</span><span style="color:#1c5d76;">5</span><span style="color:#1a5276;">8</span></a>.</strong>
+                <p style="text-align:center;">
+                    <strong>Still have questions? Email us: <span style="color:#2ecc71;">s</span><span style="color:#2dc471;">a</span><span style="color:#2cbd72;">l</span><span style="color:#2ab572;">e</span><span style="color:#29ae72;">s</span><span style="color:#28a673;">@</span><span style="color:#279e73;">g</span><span style="color:#259773;">e</span><span style="color:#248f74;">t</span><span style="color:#238774;">m</span><span style="color:#228074;">u</span><span style="color:#207874;">v</span><span style="color:#1f7175;">e</span><span style="color:#1e6975;">.</span><span style="color:#1d6175;">c</span><span style="color:#1b5a76;">o</span><span style="color:#1a5276;">m</span> or call us at <a href="tel:888-506-3958"><span style="color:#2ecc71;">8</span><span style="color:#2cc171;">8</span><span style="color:#2ab672;">8</span><span style="color:#29ab72;">-</span><span style="color:#27a073;">5</span><span style="color:#259573;">0</span><span style="color:#238974;">6</span><span style="color:#217e74;">-</span><span style="color:#1f7375;">3</span><span style="color:#1e6875;">9</span><span style="color:#1c5d76;">5</span><span style="color:#1a5276;">8</span></a>.</strong>
                 </p>
             </div>
         </div>
+
+        <hr style="width: 80%;" />
 
         <div class="business-container">
             <h2>Get Muve for Your Entire Business</h2>

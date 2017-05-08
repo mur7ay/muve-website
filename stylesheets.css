@@ -428,7 +428,7 @@ blockquote:before {
     height: 700px;
   }
   .pricing h2 {
-    margin-top: 40px;
+    margin-top: 80px;
   }
   .pricing p {
     padding-left: 10px;
@@ -438,14 +438,21 @@ blockquote:before {
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .pricing {
-    height: 700px;
+    height: 500px;
   }
   .pricing h2 {
-    margin-top: 40px;
+    margin-top: 80px;
   }
   .pricing p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .pricing p {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
@@ -530,14 +537,126 @@ blockquote:before {
   }
 }
 
-.faq-container {
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .business-container p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+  .business-container p {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+  .business-container p {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1220px) {
+  .business-container p {
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+
+/*#feature-container {
   height: 400px;
-  margin-top: 80px;
+  margin-top: 90px;
+}
+
+#feature {
+  text-align: center;
+  background-color: red;
+  float: left;
+}
+
+#feature i {
+  color: #1A5276;
+  margin-top: 50px;
+}
+
+#feature h4 {
+  font-weight: bold;
+}
+
+#feature p {
+  margin-top: 20px;
+}*/
+
+/*@media screen and (max-width: 500px) {
+  #feature-container {
+    height: 1150px;
+    margin-top: 40px;
+  }
+}*/
+
+/*@media screen and (min-width: 501px) and (max-width: 600px) {
+  #feature-container {
+    height: 1400px;
+    margin-top: 40px;
+  }
+  #feature p {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  #feature {
+    padding-top: 60px;
+  }
+}*/
+
+/*@media screen and (min-width: 601px) and (max-width: 675px) {
+  #feature-container {
+    height: 1400px;
+    margin-top: 40px;
+  }
+  #feature p {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  #feature {
+    padding-top: 60px;
+  }
+}*/
+
+/*@media screen and (min-width: 676px) and (max-width: 800px) {
+  #feature-container {
+    height: 1400px;
+    margin-top: 40px;
+  }
+  #feature p {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  #feature {
+    padding-top: 60px;
+  }
+}*/
+
+
+
+
+.faq-container {
+  height: 600px;
+  margin-top: 30px;
+  /*background-color: #F6F6F6;*/
+}
+
+@media screen and (max-width: 500px) {
+  .faq-container {
+    height: 730px;
+  }
 }
 
 .faq-inner {
   display: table;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .faq-inner h2 {
