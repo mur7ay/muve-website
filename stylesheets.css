@@ -1,16 +1,17 @@
 @media screen and (min-width: 1440px) and (max-width: 2000px) {
-    body {
-        padding: 0 200px;
-    }
+  body {
+    padding: 0 200px;
+  }
 }
+
 @media screen and (min-width: 2001px) and (max-width: 2560px) {
-    body {
-        padding: 0 480px;
-    }
+  body {
+    padding: 0 480px;
+  }
 }
 
 nav {
-    height: 80px;
+  height: 80px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
@@ -20,16 +21,16 @@ nav {
 }
 
 ul {
-    background-color: #FFF;
+  background-color: #FFF;
 }
 
 li {
-    font-size: 18px;
-    margin-top: 10px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .navbar-brand img {
-    width: 150px;
+  width: 150px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 1000px) {
@@ -41,228 +42,261 @@ li {
   }
 }
 
+
 /*
 * Index Content
 */
 
 .introduction-container {
-    text-align: center;
-    height: 260px;
+  text-align: center;
+  height: 260px;
 }
+
 .introduction-container h1 {
-    color: #1A5276;
-    font-size: 80px;
-    margin-top: 140px;
-    font-family: 'Oswald', sans-serif;
+  color: #1A5276;
+  font-size: 80px;
+  margin-top: 140px;
+  font-family: 'Oswald', sans-serif;
 }
+
 .introduction-container p {
-    color: #808B96;
-    overflow: hidden;
-    margin-bottom: 20px;
-    font-size: 15px;
-    font-family: 'Oswald', sans-serif;
+  color: #808B96;
+  overflow: hidden;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
 }
+
 #button1 {
-    background-color: #1A5276;
-    border-color: #1A5276;
-    color: #FFF;
-    font-size: 14px;
-    border-radius: 4px;
-    border-style: solid;
-    height: 40px;
-    width: 160px;
+  background-color: #1A5276;
+  border-color: #1A5276;
+  color: #FFF;
+  font-size: 14px;
+  border-radius: 4px;
+  border-style: solid;
+  height: 40px;
+  width: 160px;
 }
+
 #button2 {
-    background-color: #FFF;
-    border-color: #1A5276;
-    color: #1A5276;
-    font-size: 14px;
-    border-radius: 4px;
-    border-style: solid;
-    height: 40px;
-    width: 160px;
+  background-color: #FFF;
+  border-color: #1A5276;
+  color: #1A5276;
+  font-size: 14px;
+  border-radius: 4px;
+  border-style: solid;
+  height: 40px;
+  width: 160px;
 }
+
 .container2 {
-    clear: both;
-    background-color: #1A5276;
-    height: 200px;
+  clear: both;
+  background-color: #1A5276;
+  height: 200px;
 }
+
 .container2 h3 {
-    color: #FFF;
-    text-align: center;
-    padding-top: 60px;
-    font-family: 'Oswald', sans-serif;
+  color: #FFF;
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Oswald', sans-serif;
 }
+
 .grey-container {
-    height: 600px;
-    margin-top: 40px;
-    background-color: #F6F6F6;
-    overflow: hidden;
+  height: 600px;
+  margin-top: 40px;
+  background-color: #F6F6F6;
+  overflow: hidden;
 }
+
 .left {
-    float: left;
-    width: 50%;
-    height: 100%;
+  float: left;
+  width: 50%;
+  height: 100%;
 }
+
 .left img {
-    width: 780px;
+  width: 780px;
 }
+
 .right {
-    float: left;
-    width: 50%;
-    height: 100%;
-    padding: 0 70px 0 20px;
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 0 70px 0 20px;
 }
+
 .right h2 {
-    margin-top: 240px;
+  margin-top: 240px;
 }
+
 .white-container h2 {
-    text-align: center;
-    margin: 60px 0 0 0;
+  text-align: center;
+  margin: 60px 0 0 0;
 }
+
 .small-container {
-    width: 25%;
-    float: left;
-    padding: 0 20px;
-    text-align: center;
+  width: 25%;
+  float: left;
+  padding: 0 20px;
+  text-align: center;
 }
+
 .small-container img {
-    display: block;
-    margin: 0 auto;
-    width: 90px;
-    padding-top: 80px;
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  padding-top: 80px;
 }
+
 .small-container h2 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
+
 #quote-container {
-    height: 360px;
-    width: 100%;
-    overflow: hidden;
-    background-color: #1A5276;
-    color: #FFF;
-    padding: 100px 70px 0 120px;
-    font-size: 35px;
+  height: 360px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #1A5276;
+  color: #FFF;
+  padding: 100px 70px 0 120px;
+  font-size: 35px;
 }
+
 blockquote {
-    font-family: Georgia, serif;
-    font-style: italic;
-    width: 500px;
-    margin: 0.25em 0;
-    padding: 0.35em 40px;
-    line-height: 1.45;
-    position: relative;
-    color: #FFF;
+  font-family: Georgia, serif;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #FFF;
 }
+
 blockquote:before {
-    display: block;
-    padding-left: 70px;
-    padding-top: 100px;
-    content: "\201C";
-    font-size: 100px;
-    position: absolute;
-    left: -10px;
-    top: -20px;
-    color: #FFF;
+  display: block;
+  padding: 100px 0 0 70px;
+  content: "\201C";
+  font-size: 100px;
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  color: #FFF;
 }
+
 .more-benefits {
-    height: 350px;
-    text-align: center;
+  height: 350px;
+  text-align: center;
 }
+
 .more-benefits h2 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
+
 #business-icons {
-    width: 90px;
-    padding-top: 40px;
+  width: 90px;
+  padding-top: 40px;
 }
+
 #business-icons2 {
-    width: 90px;
+  width: 90px;
 }
+
 .docs-container {
-    text-align: center;
+  text-align: center;
 }
+
 .docs-container h1 {
-    color: #1A5276;
-    font-size: 80px;
-    font-family: 'Oswald', sans-serif;
+  color: #1A5276;
+  font-size: 80px;
+  font-family: 'Oswald', sans-serif;
 }
+
 .docs-container p {
-    color: #808B96;
-    overflow: hidden;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+  color: #808B96;
+  overflow: hidden;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
 }
+
 .gray-doc-container {
-    height: 770px;
-    background-color: #F6F6F6;
-    margin-top: 50px;
+  height: 770px;
+  background-color: #F6F6F6;
+  margin-top: 50px;
 }
+
 .step-one {
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 60px;
+  margin: 0 100px;
+  padding-top: 60px;
 }
+
 .result-container {
-    width: 100%;
+  width: 100%;
 }
+
 .result-left {
-    float: left;
-    width: 50%;
-    height: 200px;
-    text-align: right;
+  float: left;
+  width: 50%;
+  height: 200px;
+  text-align: right;
 }
+
 .result-left h3 {
-    padding-top: 40px;
-    padding-right: 20px;
+  padding: 40px 20px 0 0;
 }
+
 .result-right {
-    float: left;
-    width: 50%;
-    height: 200px;
+  float: left;
+  width: 50%;
+  height: 200px;
 }
+
 .result-right img {
-    width: 260px;
-    padding-top: 30px;
+  width: 260px;
+  padding-top: 30px;
 }
+
 .bottomGrayContainer {
-    clear: both;
-    height: 230px;
-    overflow: hidden;
-    text-align: center;
-    background-color: #F6F6F6;
+  clear: both;
+  height: 230px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #F6F6F6;
 }
+
 .bottomGrayContainer h2 {
-    padding-top: 55px;
+  padding-top: 55px;
 }
+
 .bottomGrayContainer button {
-    width: 220px;
-    height: 50px;
-    border-radius: 5px;
-    border-style: none;
-    background-color: #2ECC71;
-    color: #FFF: font-size: 20px;
+  width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #2ECC71;
+  color: #FFF;
+  font-size: 20px;
 }
+
 .bottomGrayContainer button:hover {
-    background-color: #82E0AA;
+  background-color: #82E0AA;
 }
+
 .about-container {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 80px;
+  margin: 80px 30px 0;
 }
+
 .about-container h2 {
-    margin-top: 60px;
-    padding-left: 150px;
-    padding-right: 150px;
-    color: #2ECC71;
+  margin: 60px 150px 0;
+  color: #2ECC71;
 }
+
 .about-container p {
-    margin-top: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
-    color: #828282;
+  margin-top: 20px;
+  padding: 0 150px;
+  color: #828282;
 }
 
 .team-photo {
@@ -312,8 +346,7 @@ blockquote:before {
 }
 
 .privacy-container {
-  margin-left: 180px;
-  margin-right: 180px;
+  margin: 0 180px;
 }
 
 .privacy-container h1 {
@@ -323,8 +356,7 @@ blockquote:before {
 }
 
 .privacy-container p {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 20px 0 40px 0;
 }
 
 .privacy-container h2 {
@@ -347,9 +379,7 @@ blockquote:before {
 
 .cost-container p {
   font-size: 24px;
-  margin-top: 30px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin: 30px 250px 0;
 }
 
 .team-container {
@@ -423,8 +453,7 @@ blockquote:before {
 .pricing p {
   font-size: 16px;
   margin-top: 20px;
-  padding-left: 380px;
-  padding-right: 380px;
+  padding: 0 380px;
 }
 
 @media screen and (max-width: 600px) {
@@ -435,8 +464,7 @@ blockquote:before {
     margin-top: 80px;
   }
   .pricing p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
   }
 }
 
@@ -448,15 +476,13 @@ blockquote:before {
     margin-top: 80px;
   }
   .pricing p {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 40px;
   }
 }
 
 @media screen and (min-width: 901px) {
   .pricing p {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 0 120px;
   }
 }
 
@@ -523,8 +549,7 @@ blockquote:before {
 }
 
 .business-container p {
-  padding-left: 380px;
-  padding-right: 380px;
+  padding: 0 380px;
   margin-top: 50px;
   font-size: 16px;
 }
@@ -536,43 +561,37 @@ blockquote:before {
 
 @media screen and (max-width: 600px) {
   .business-container p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
   .business-container p {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 50px;
   }
 }
 
 @media screen and (min-width: 801px) and (max-width: 900px) {
   .business-container p {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 100px;
   }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1100px) {
   .business-container p {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 0 150px;
   }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1220px) {
   .business-container p {
-    padding-left: 190px;
-    padding-right: 190px;
+    padding: 0 190px;
   }
 }
 
 .faq-container {
   height: 600px;
   margin-top: 30px;
-  /*background-color: #F6F6F6;*/
 }
 
 @media screen and (max-width: 500px) {
@@ -604,11 +623,9 @@ blockquote:before {
 
 @media screen and (max-width: 900px) {
   .faq-inner {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
   }
 }
-
 
 footer {
   clear: both;
@@ -620,187 +637,176 @@ footer a {
 
 @media screen and (min-width: 200px) and (max-width: 320px) {
   .introduction-container h1 {
-      font-size: 40px;
-      margin-top: 110px;
+    font-size: 40px;
+    margin-top: 110px;
   }
   .introduction-container p {
-      font-size: 14px;
-      padding: 0 15px;
+    font-size: 14px;
+    padding: 0 15px;
   }
   .introduction-container br {
-      display: none;
+    display: none;
   }
   .grey-container {
-      height: 480px;
+    height: 480px;
   }
   .left {
-      width: 100%;
-      height: 80px;
+    width: 100%;
+    height: 80px;
   }
   .right {
-      width: 100%;
-      text-align: center;
-      padding: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
   }
   .right h2 {
-      margin-top: 170px;
+    margin-top: 170px;
   }
   .left img {
-      display: block;
-      margin: 0 auto;
-      width: 330px;
+    display: block;
+    margin: 0 auto;
+    width: 330px;
   }
   .white-container {
-      height: 1300px;
+    height: 1300px;
   }
   .white-container p {
-      padding: 0 50px;
+    padding: 0 50px;
   }
   #quote-container {
     font-size: 16px;
-      overflow: hidden;
-      background-color: #1A5276;
-      color: #FFF;
-      padding: 80px 70px 0 90px;
+    overflow: hidden;
+    background-color: #1A5276;
+    color: #FFF;
+    padding: 80px 70px 0 90px;
   }
   blockquote {
-      font-family: Georgia, serif;
-      font-style: italic;
-      width: 500px;
-      margin: 0.25em 0;
-      padding: 0.35em 40px;
-      line-height: 1.45;
-      position: relative;
-      color: #FFF;
+    font-family: Georgia, serif;
+    font-style: italic;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #FFF;
   }
   blockquote:before {
-      display: block;
-      padding-left: 50px;
-      padding-top: 80px;
-      content: "\201C";
-      font-size: 80px;
-      position: absolute;
-      left: -10px;
-      top: -20px;
-      color: #FFF;
+    display: block;
+    padding-left: 50px;
+    padding-top: 80px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    color: #FFF;
   }
   .more-benefits {
-      margin-top: 10px;
+    margin-top: 10px;
   }
   .more-benefits p {
-      padding: 0 40px;
+    padding: 0 40px;
   }
   .small-container {
-      clear: both;
-      width: 100%;
-      height: 240px;
-      margin-top: 10px;
-      margin-bottom: 10px;
+    clear: both;
+    width: 100%;
+    height: 240px;
+    margin: 10px 0;
   }
   #what {
-      margin-top: 50px;
+    margin-top: 50px;
   }
   .benefit-container {
-      margin-bottom: 1600px;
+    margin-bottom: 1600px;
   }
   .bottomGrayContainer {
-      height: 180px;
+    height: 180px;
   }
   .bottomGrayContainer h2 {
-      font-size: 18px;
+    font-size: 18px;
   }
   .bottomGrayContainer button {
-      font-size: 16px;
-      color: #FFF;
+    font-size: 16px;
+    color: #FFF;
   }
   #coffee {
-      margin-top: 80px;
+    margin-top: 80px;
   }
   .docs-container h1 {
-      font-size: 40px;
+    font-size: 40px;
   }
   .docs-container p {
-      font-size: 14px;
-      padding: 0 15px;
+    font-size: 14px;
+    padding: 0 15px;
   }
   .gray-doc-container {
-      height: 770px;
+    height: 770px;
   }
   .step-one {
-      margin-left: 10px;
-      margin-right: 10px;
+    margin: 0 10px;
   }
   .result-left {
-      width: 100%;
-      text-align: center;
-      height: 80px;
-      float: none;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    float: none;
   }
   .result-right {
-      width: 100%;
-      height: 120px;
-      float: none;
+    width: 100%;
+    height: 120px;
+    float: none;
   }
   .result-right img {
-      display: block;
-      margin: 0 auto;
-      padding-top: 5px;
-      width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 200px;
   }
   #about-us {
-      margin-top: 10px;
+    margin-top: 10px;
   }
   .about-container h2 {
-      margin-top: 60px;
-      padding-left: 10px;
-      padding-right: 10px;
+    margin-top: 60px;
+    padding: 0 10px;
   }
   .about-container p {
-      margin-top: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
+    margin-top: 20px;
+    padding: 0 10px;
   }
   .introduction-container {
-      height: 100%;
+    height: 100%;
   }
   #button1 {
-      width: 200px;
+    width: 200px;
   }
   #button2 {
-      margin-top: 10px;
-      width: 200px;
+    margin-top: 10px;
+    width: 200px;
   }
   .privacy-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
   }
   .privacy-container p {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 20px 0 40px;
   }
   .cost-container {
     height: 570px;
   }
-
   .cost-container img {
     padding-top: 80px;
   }
-
   .cost-container p {
     font-size: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
   }
-
   .team-container {
     margin-top: 700px;
   }
-
   .member-left {
     float: left;
     width: 100%;
   }
-
   .member-right {
     float: left;
     width: 100%;
@@ -811,365 +817,328 @@ footer a {
 }
 
 @media screen and (min-width: 321px) and (max-width: 700px) {
-    .introduction-container h1 {
-        font-size: 40px;
-        margin-top: 110px;
-    }
-    .introduction-container p {
-        font-size: 14px;
-        padding: 0 15px;
-    }
-    .introduction-container br {
-        display: none;
-    }
-    .grey-container {
-        height: 510px;
-    }
-    .left {
-        width: 100%;
-        height: 80px;
-    }
-    .right {
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-    }
-    .right h2 {
-        margin-top: 210px;
-    }
-    .left img {
-        display: block;
-        margin: 0 auto;
-        width: 440px;
-    }
-    .white-container {
-        height: 1300px;
-    }
-    .white-container p {
-        padding: 0 50px;
-    }
-    #quote-container {
-      font-size: 20px;
-        overflow: hidden;
-        background-color: #1A5276;
-        color: #FFF;
-        padding: 80px 70px 0 90px;
-        height: 400px;
-    }
-    blockquote {
-        font-family: Georgia, serif;
-        font-style: italic;
-        width: 500px;
-        margin: 0.25em 0;
-        padding: 0.35em 40px;
-        line-height: 1.45;
-        position: relative;
-        color: #FFF;
-    }
-    blockquote:before {
-        display: block;
-        padding-left: 50px;
-        padding-top: 80px;
-        content: "\201C";
-        font-size: 80px;
-        position: absolute;
-        left: -10px;
-        top: -20px;
-        color: #FFF;
-    }
-    .more-benefits {
-        margin-top: 10px;
-    }
-    .more-benefits p {
-        padding: 0 40px;
-    }
-    .small-container {
-        clear: both;
-        width: 100%;
-        height: 240px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    #what {
-        margin-top: 50px;
-    }
-    .benefit-container {
-        margin-bottom: 1600px;
-    }
-    .bottomGrayContainer {
-        height: 210px;
-    }
-    .bottomGrayContainer h2 {
-        font-size: 18px;
-        margin-top: 20px;
-    }
-    .bottomGrayContainer button {
-        font-size: 16px;
-        color: #FFF;
-    }
-    #coffee {
-        margin-top: 80px;
-    }
-    .docs-container h1 {
-        font-size: 40px;
-    }
-    .docs-container p {
-        font-size: 14px;
-        padding: 0 15px;
-    }
-    .gray-doc-container {
-        height: 770px;
-    }
-    .step-one {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .result-left {
-        width: 100%;
-        text-align: center;
-        height: 80px;
-        float: none;
-    }
-    .result-right {
-        width: 100%;
-        height: 120px;
-        float: none;
-    }
-    .result-right img {
-        display: block;
-        margin: 0 auto;
-        padding-top: 5px;
-        width: 200px;
-    }
-    #about-us {
-        margin-top: 80px;
-    }
-    .about-container h2 {
-        margin-top: 60px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .about-container p {
-        margin-top: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .introduction-container {
-        height: 100%;
-    }
-    #button1 {
-        width: 180px;
-    }
-    #button2 {
-        width: 180px;
-    }
-    .privacy-container {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-    .cost-container {
-      height: 510px;
-    }
-
-    .cost-container img {
-      padding-top: 80px;
-    }
-
-    .cost-container p {
-      font-size: 20px;
-      margin-left: 30px;
-      margin-right: 30px;
-    }
-
-    .team-container {
-      margin-top: 70px;
-      height: 700px;
-    }
-
-    .member-left {
-      float: left;
-      width: 100%;
-      padding-left: 0;
-    }
-
-    .member-right {
-      float: left;
-      width: 100%;
-      padding-right: 0;
-    }
-    footer p {
-      font-size: 12px;
-    }
+  .introduction-container h1 {
+    font-size: 40px;
+    margin-top: 110px;
+  }
+  .introduction-container p {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .introduction-container br {
+    display: none;
+  }
+  .grey-container {
+    height: 510px;
+  }
+  .left {
+    width: 100%;
+    height: 80px;
+  }
+  .right {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .right h2 {
+    margin-top: 210px;
+  }
+  .left img {
+    display: block;
+    margin: 0 auto;
+    width: 440px;
+  }
+  .white-container {
+    height: 1300px;
+  }
+  .white-container p {
+    padding: 0 50px;
+  }
+  #quote-container {
+    font-size: 20px;
+    overflow: hidden;
+    background-color: #1A5276;
+    color: #FFF;
+    padding: 80px 70px 0 90px;
+    height: 400px;
+  }
+  .more-benefits {
+    margin-top: 10px;
+  }
+  .more-benefits p {
+    padding: 0 40px;
+  }
+  .small-container {
+    clear: both;
+    width: 100%;
+    height: 240px;
+    margin: 10px 0;
+  }
+  #what {
+    margin-top: 50px;
+  }
+  .benefit-container {
+    margin-bottom: 1600px;
+  }
+  .bottomGrayContainer {
+    height: 210px;
+  }
+  .bottomGrayContainer h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .bottomGrayContainer button {
+    font-size: 16px;
+    color: #FFF;
+  }
+  #coffee {
+    margin-top: 80px;
+  }
+  .docs-container h1 {
+    font-size: 40px;
+  }
+  .docs-container p {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .gray-doc-container {
+    height: 770px;
+  }
+  .step-one {
+    margin: 0 10px;
+  }
+  .result-left {
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    float: none;
+  }
+  .result-right {
+    width: 100%;
+    height: 120px;
+    float: none;
+  }
+  .result-right img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 200px;
+  }
+  #about-us {
+    margin-top: 80px;
+  }
+  .about-container h2 {
+    margin-top: 60px;
+    padding: 0 10px;
+  }
+  .about-container p {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .introduction-container {
+    height: 100%;
+  }
+  #button1 {
+    width: 180px;
+  }
+  #button2 {
+    width: 180px;
+  }
+  .privacy-container {
+    margin: 0 20px;
+  }
+  .cost-container {
+    height: 510px;
+  }
+  .cost-container img {
+    padding-top: 80px;
+  }
+  .cost-container p {
+    font-size: 20px;
+    margin: 0 30px;
+  }
+  .team-container {
+    margin-top: 70px;
+    height: 700px;
+  }
+  .member-left {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+  }
+  .member-right {
+    float: left;
+    width: 100%;
+    padding-right: 0;
+  }
+  footer p {
+    font-size: 12px;
+  }
 }
+
 @media screen and (min-width: 701px) and (max-width: 1000px) {
-    .introduction-container h1 {
-        font-size: 60px;
-    }
-    .grey-container {
-        height: 540px;
-    }
-    .left {
-        width: 100%;
-        height: 100px;
-    }
-    .right {
-        width: 100%;
-        text-align: center;
-        padding: 0 90px;
-    }
-    .left img {
-        width: 500px;
-        display: block;
-        margin: 0 auto;
-    }
-    .white-container p {
-        padding: 0 20px;
-    }
-    .white-container img {
-        margin-top: 40px;
-    }
-    .small-container {
-        width: 50%;
-        height: 240px;
-        margin-top: 40px;
-        margin-bottom: 60px;
-    }
-    #quote-container {
-        font-size: 22px;
-        height: 300px;
-    }
-    .more-benefits h2 {
-        margin-top: 100px;
-    }
-    .more-benefits p {
-        padding: 0 30px;
-    }
-    .small-container img {
-        display: block;
-        margin: 0 auto;
-        width: 90px;
-        padding-top: 10px;
-        vertical-align: middle;
-    }
-    #about-us {
-        margin-top: 120px;
-    }
-    .bottomGrayContainer button {
-      color: #FFF;
-      font-size: 18px;
-    }
-    .privacy-container {
-      margin-left: 40px;
-      margin-right: 40px;
-    }
-    .cost-container {
-      height: 510px;
-    }
-
-    .cost-container img {
-      padding-top: 80px;
-    }
-
-    .cost-container p {
-      font-size: 20px;
-      margin-left: 30px;
-      margin-right: 30px;
-    }
+  .introduction-container h1 {
+    font-size: 60px;
+  }
+  .grey-container {
+    height: 540px;
+  }
+  .left {
+    width: 100%;
+    height: 100px;
+  }
+  .right {
+    width: 100%;
+    text-align: center;
+    padding: 0 90px;
+  }
+  .left img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+  .white-container p {
+    padding: 0 20px;
+  }
+  .white-container img {
+    margin-top: 40px;
+  }
+  .small-container {
+    width: 50%;
+    height: 240px;
+    margin: 40px 0 60px;
+  }
+  #quote-container {
+    font-size: 22px;
+    height: 300px;
+  }
+  .more-benefits h2 {
+    margin-top: 100px;
+  }
+  .more-benefits p {
+    padding: 0 30px;
+  }
+  .small-container img {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    padding-top: 10px;
+    vertical-align: middle;
+  }
+  #about-us {
+    margin-top: 120px;
+  }
+  .bottomGrayContainer button {
+    color: #FFF;
+    font-size: 18px;
+  }
+  .privacy-container {
+    margin: 0 40px;
+  }
+  .cost-container {
+    height: 510px;
+  }
+  .cost-container img {
+    padding-top: 80px;
+  }
+  .cost-container p {
+    font-size: 20px;
+    margin: 0 30px;
+  }
 }
+
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
-    .grey-container {
-        height: 540px;
-    }
-    .left {
-        width: 50%;
-        height: 100%;
-        float: left;
-    }
-    .right {
-        width: 50%;
-        float: left;
-        padding: 0 40px 0 0;
-        height: 100%;
-    }
-    .left img {
-        width: 500px;
-        display: block;
-        margin: 0 auto;
-        padding-top: 90px;
-    }
-    .white-container p {
-        padding: 0 60px;
-    }
-    .white-container img {
-        margin-top: 40px;
-    }
-    .small-container {
-        width: 50%;
-        height: 170px;
-        margin-top: 40px;
-        margin-bottom: 100px;
-    }
-    .small-container p {
-      margin-left: 60px;
-      margin-right: 60px;
-    }
-    #quote-container {
-        font-size: 22px;
-        height: 300px;
-    }
-    .more-benefits h2 {
-        margin-top: 100px;
-    }
-    .more-benefits p {
-        padding: 0 30px;
-    }
-    .small-container img {
-        display: block;
-        margin: 0 auto;
-        width: 90px;
-        padding-top: 10px;
-        vertical-align: middle;
-    }
-    #about-us {
-        margin-top: 140px;
-    }
-    .bottomGrayContainer button {
-      color: #FFF;
-      font-size: 18px;
-    }
+  .grey-container {
+    height: 540px;
+  }
+  .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  .right {
+    width: 50%;
+    float: left;
+    padding: 0 40px 0 0;
+    height: 100%;
+  }
+  .left img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+  }
+  .white-container p {
+    padding: 0 60px;
+  }
+  .white-container img {
+    margin-top: 40px;
+  }
+  .small-container {
+    width: 50%;
+    height: 170px;
+    margin: 40px 0 100px;
+  }
+  .small-container p {
+    margin: 0 60px;
+  }
+  #quote-container {
+    font-size: 22px;
+    height: 300px;
+  }
+  .more-benefits h2 {
+    margin-top: 100px;
+  }
+  .more-benefits p {
+    padding: 0 30px;
+  }
+  .small-container img {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    padding-top: 10px;
+    vertical-align: middle;
+  }
+  #about-us {
+    margin-top: 140px;
+  }
+  .bottomGrayContainer button {
+    color: #FFF;
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
-    .white-container {
-        height: 400px;
-    }
-    .white-container p {
-        padding: 0 10px;
-        margin-bottom: 80px;
-    }
-    .white-container img {
-        margin-top: 20px;
-    }
-    .benefit-container {
-        height: 100%;
-        margin-bottom: 70px;
-    }
-    #about-us {
-        margin-top: 10px;
-    }
-    .bottomGrayContainer button {
-      color: #FFF;
-      font-size: 18px;
-    }
-    .left img {
-      width: 670px;
-      margin-top: 50px;
-    }
+  .white-container {
+    height: 400px;
+  }
+  .white-container p {
+    padding: 0 10px;
+    margin-bottom: 80px;
+  }
+  .white-container img {
+    margin-top: 20px;
+  }
+  .benefit-container {
+    height: 100%;
+    margin-bottom: 70px;
+  }
+  #about-us {
+    margin-top: 10px;
+  }
+  .bottomGrayContainer button {
+    color: #FFF;
+    font-size: 18px;
+  }
+  .left img {
+    width: 670px;
+    margin-top: 50px;
+  }
 }
 
 footer {
-    height: 30px;
-    padding-top: 10px;
-    text-align: center;
-    color: gray;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  color: gray;
 }
