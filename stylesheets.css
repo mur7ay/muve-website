@@ -456,9 +456,21 @@ blockquote:before {
   padding: 0 380px;
 }
 
+#feature-row {
+  margin-top: 10px;
+}
+
+#feature {
+  text-align: center;
+}
+
+#feature h4 {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 600px) {
   .pricing {
-    height: 700px;
+    height: 800px;
   }
   .pricing h2 {
     margin-top: 80px;
@@ -592,6 +604,7 @@ blockquote:before {
 .faq-container {
   height: 600px;
   margin-top: 30px;
+  background-color: #F6F6F6;
 }
 
 @media screen and (max-width: 500px) {
